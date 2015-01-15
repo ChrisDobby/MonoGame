@@ -161,7 +161,7 @@ namespace MonoGame.Tests.ContentPipeline
         public ulong ULong;
         public float Float;
         public double Double;
-        public char? NullChar;                        
+        public char? NullChar;
         public char? NotNullChar;
     }
     #endregion
@@ -178,6 +178,8 @@ namespace MonoGame.Tests.ContentPipeline
         public Matrix Matrix;
         public Color Color;
         public Vector2[] Vector2Array = new Vector2[0];
+        public List<Vector2> Vector2List = new List<Vector2>();
+        //public List<Vector2> Vector2ListSpaced = new List<Vector2>();
     }
     #endregion
 
