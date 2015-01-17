@@ -105,10 +105,15 @@ public class RenamingXmlElements
     public bool isOrganic;
 
     [ContentSerializer(ElementName = "Dimensions")]
-    public Vector2 dimensions;
+    private Vector2 dimensions;
 
     [ContentSerializerIgnore]
     private Texture2D _UnitTexture;
+
+    public Vector2 Dimensions
+    {
+        get { return dimensions; }
+    }
 }
 #endregion
 

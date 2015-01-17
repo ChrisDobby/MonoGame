@@ -151,7 +151,6 @@ namespace MonoGame.Tests.ContentPipeline
                 elf = 23,
                 speed = 80.2f,
                 isOrganic = true,
-                dimensions = new Vector2(32, 32)
             });
         }
 
