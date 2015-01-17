@@ -148,7 +148,10 @@ namespace MonoGame.Tests.ContentPipeline
             SerializeAndAssert("05_RenamingXmlElements.xml", new RenamingXmlElements
             {
                 hello = "world",
-                elf = 23
+                elf = 23,
+                speed = 80.2f,
+                isOrganic = true,
+                dimensions = new Vector2(32, 32)
             });
         }
 

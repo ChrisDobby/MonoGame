@@ -97,6 +97,18 @@ public class RenamingXmlElements
 
     [ContentSerializer(ElementName = "ElvesAreCool")]
     public int elf;
+
+    [ContentSerializer(ElementName = "Speed")]
+    public   float speed;
+
+    [ContentSerializer(ElementName = "Organic")]
+    public bool isOrganic;
+
+    [ContentSerializer(ElementName = "Dimensions")]
+    public Vector2 dimensions;
+
+    [ContentSerializerIgnore]
+    private Texture2D _UnitTexture;
 }
 #endregion
 
@@ -168,7 +180,7 @@ public class PrimitiveTypes
     public ulong ULong;
     public float Float;
     public double Double;
-    public char? NullChar;                        
+    public char? NullChar;
     public char? NotNullChar;
 }
 #endregion
